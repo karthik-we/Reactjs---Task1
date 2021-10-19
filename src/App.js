@@ -19,7 +19,7 @@ function App() {
           <Nav>
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#about-us">About Us</Nav.Link>
-            <NavDropdown title="Groups">
+            <NavDropdown title="Groups" renderMenuOnMount={true}>
               <NavDropdown.Item href="#groups/apple">Apple</NavDropdown.Item>
               <NavDropdown.Item href="#groups/mango">Mango</NavDropdown.Item>
               <NavDropdown.Item href="#groups/orange">Orange</NavDropdown.Item>
